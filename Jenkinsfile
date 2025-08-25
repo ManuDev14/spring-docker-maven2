@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/11Luis39/spring-docker-maven2.git'
+                git 'https://github.com/ManuDev14/spring-docker-maven2.git'
             }
         }
         stage('Build') {
